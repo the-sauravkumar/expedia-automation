@@ -1,0 +1,24 @@
+[09-08-2024 22:59:19] Navigated to Expedia
+Current URL: https://www.expedia.com/
+Page Title: Expedia Travel: Vacation Homes, Hotels, Car Rentals, Flights & More
+[09-08-2024 22:59:19] Clicked on language button
+[09-08-2024 22:59:21] Selected India as region
+[09-08-2024 22:59:25] Selected English as language
+[09-08-2024 22:59:31] Screenshot saved at D:/LPU/Frugal Testing/2.region_changed.png
+[09-08-2024 22:59:39] Viewing Flights in India
+[09-08-2024 22:59:46] Clicked on Flights tab
+[09-08-2024 22:59:46] Screenshot saved at D:/LPU/Frugal Testing/3.flight_tab.png
+[09-08-2024 22:59:47] Screenshot saved at D:/LPU/Frugal Testing/4.one_way.png
+[09-08-2024 22:59:48] Screenshot saved at D:/LPU/Frugal Testing/5.depart_city.png
+[09-08-2024 22:59:48] Entered departure city
+[09-08-2024 22:59:51] Screenshot saved at D:/LPU/Frugal Testing/6.dest_city.png
+[09-08-2024 22:59:51] Entered destination city
+[09-08-2024 22:59:57] Screenshot saved at D:/LPU/Frugal Testing/7.date_selection.png
+[09-08-2024 22:59:57] Departure date selected: 9 September 2024
+[09-08-2024 22:59:58] Screenshot saved at D:/LPU/Frugal Testing/8.travellers.png
+[09-08-2024 23:00:03] Selected 2 adults and clicked Done
+[09-08-2024 23:00:09] Clicked on SEARCH button
+[09-08-2024 23:00:21] Screenshot saved at D:/LPU/Frugal Testing/9.first_flight.png
+No flights available
+[09-08-2024 23:00:26] Screenshot saved at D:/LPU/Frugal Testing/10.flight_selected.png
+[09-08-2024 23:00:26] Script completed successfully
