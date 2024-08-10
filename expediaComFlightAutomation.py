@@ -22,7 +22,7 @@ def log(message):
 
 
 chrome_driver_path = "chromedriver-win64/chromedriver.exe"
-chrome_profile_path = "D:\LPU\Frugal Testing\customDir"
+chrome_profile_path = "path\to\your\created\directory"
 
 chrome_options = Options()
 chrome_options.add_argument(f"user-data-dir={chrome_profile_path}")
@@ -58,7 +58,7 @@ try:
         time.sleep(6)
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/2.region_changed.png"
+        screenshot_path = "2.region_changed.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -77,7 +77,7 @@ try:
         log(f"[{current_time()}] Clicked on Flights tab")
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/3.flight_tab.png"
+        screenshot_path = "3.flight_tab.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -91,7 +91,7 @@ try:
         one_way.click()
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/4.one_way.png"
+        screenshot_path = "4.one_way.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -109,7 +109,7 @@ try:
         departure_city_input.send_keys("Kolkata")
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/5.depart_city.png"
+        screenshot_path = "5.depart_city.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -126,7 +126,7 @@ try:
         destination_city_input.send_keys("Hyderabad")
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/6.dest_city.png"
+        screenshot_path = "6.dest_city.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -149,7 +149,7 @@ try:
         #time.sleep(random.uniform(2, 5))
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/7.date_selection.png"
+        screenshot_path = "7.date_selection.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -173,7 +173,7 @@ try:
         adult_option.click()
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/8.travellers.png"
+        screenshot_path = "8.travellers.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -206,7 +206,7 @@ try:
         time.sleep(8)
 
         # Capture screenshot
-        screenshot_path = "D:/LPU/Frugal Testing/9.first_flight.png"
+        screenshot_path = "9.first_flight.png"
         driver.save_screenshot(screenshot_path)
         log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
@@ -220,7 +220,7 @@ try:
         log("No flights available")
 
     # Capture screenshot
-    screenshot_path = "D:/LPU/Frugal Testing/10.flight_selected.png"
+    screenshot_path = "10.flight_selected.png"
     driver.save_screenshot(screenshot_path)
     log(f"[{current_time()}] Screenshot saved at {screenshot_path}")
 
